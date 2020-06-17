@@ -1,0 +1,152 @@
+/* ---------------------------------- Tags ---------------------------------- */
+
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+hr {
+  border: 5px dotted;
+  border-style: none none dotted;
+  width: 10%;
+  border-color: #dfdfdf;
+  margin: 4rem auto 4rem;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  /* 
+    16px = 100% = 1em so for 48px = 300% = 3em 
+    em are inhereted by parent and give different result
+    so it is recommanded to use rem over em
+  */
+  font-size: 3rem;
+  color: #414749;
+  margin: 2rem auto 0rem;
+}
+
+h2 {
+  color: #00C37A;
+  font-weight: bold;
+}
+
+h3 {
+  color: #00c37a;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #585e60;
+  font-weight: normal;
+  margin: 0.5rem auto 0rem;
+  line-height: 2;
+}
+
+span {
+  font-weight: 900;
+  color: #414749;
+  font-family: "Roboto Slab", serif;
+}
+
+footer {
+  background-color: #009655;
+  padding: 3rem;
+  color: #A4E869;
+}
+
+a {
+  color: #A4E869;
+  margin: auto 0.5rem auto;
+}
+
+td {
+  width: 10rem;
+}
+
+/* --------------------------------- Classes -------------------------------- */
+
+.banner {
+  position: relative;
+  padding-top: 80px;
+  background-color: rgb(255, 251, 247);
+  position: relative;
+  padding: 10rem 10rem 3rem;
+}
+
+.topCloud {
+  position: absolute;
+  right: 10rem;
+  top: 1rem;
+  width: 180px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 10rem;
+  width: 180px;
+  bottom: 24rem;
+}
+
+.profileImg {
+  width: 150px;
+}
+
+.link {
+  color: #00C37A;
+}
+
+/* .skills {
+  display: inline;
+} */
+
+.project_row {
+  width: 50%;
+  margin: 4rem auto 0rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skillsImg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.prImg {
+  width: 25%; /* related to its parent i.e if parent width is 100px then value is 25px */
+  max-width: 120px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.btn {
+  margin-top: 30px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 10px 20px 10px;
+  background-color: #00C37A;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #00C37A;
+   border: solid #00C37A 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.fpara {
+  color: #A4E869;
+}
